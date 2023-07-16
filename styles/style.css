@@ -278,3 +278,10 @@ hr{
     margin-right: 7px;
     
 }
+.footer-hr{
+    margin-bottom: 2px solid gray;
+}
+.copyright{
+    justify-content: end;
+    color: white;
+}
