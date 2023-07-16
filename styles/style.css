@@ -106,18 +106,20 @@ li{
 }
 .author{
     height: 70px;
-    border-radius: 50px;
+    border-radius: 35px;
 }
 .ceo-title{
+     
     color: white;
-   padding-right: 100px;
-    padding-left: 20px;
+    padding-right: 100px;
+    padding-left: 10px;
+    
 
 }
 hr{
-    height: 60px;
+    height: 100px;
     border: 1px solid red;
-   margin-right: 20px;
+    margin-right: 20px;
 }
 .service-img{
     display: flex;
@@ -140,4 +142,37 @@ hr{
     height: 80px;
     margin-bottom: 20px;
      
+}
+/* make appointment section related styles */
+.appointment-container{
+    height: 200px;
+    margin: auto 150px;
+    background-color: bisque;
+    border-radius: 10px;
+    margin-top: -100px;
+    
+}
+.appointment-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 60px;
+}
+.appointment-para{
+    width: 400px;
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 20px;
+    
+     
+}
+.phone-call{
+    display: flex;
+}  
+.calling-title{
+    padding-left: 20px;
+}
+.appoin-btn{
+     padding: 10px 25px;
+     border-radius: 30px;
 }
