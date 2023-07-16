@@ -150,6 +150,9 @@ hr{
     background-color: bisque;
     border-radius: 10px;
     margin-top: -100px;
+    position: relative;
+    position: sticky;
+    box-shadow: 10px 10px 30px rgb(24, 23, 23);
     
 }
 .appointment-info{
@@ -175,4 +178,15 @@ hr{
 .appoin-btn{
      padding: 10px 25px;
      border-radius: 30px;
+}
+/* Blog & News From Us related styles */
+.blog-news-container{
+    height: 120vh;
+    background-color: rgba(121, 150, 150, 0.788);
+    margin-top: -100px;
+    
+}
+.blog-des{
+    padding-top: 150px;
+    text-align: center;
 }
