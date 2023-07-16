@@ -215,7 +215,8 @@ hr{
 }
 .news-img{
     width: 100%;
-    border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
      
 }
 .card-title{
