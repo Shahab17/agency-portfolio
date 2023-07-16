@@ -190,3 +190,11 @@ hr{
     padding-top: 150px;
     text-align: center;
 }
+.blog-title{
+    color: black;
+}
+.blog-para{
+    color: black;
+    font-size: 20px;
+     
+}
