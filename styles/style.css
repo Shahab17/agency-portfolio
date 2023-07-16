@@ -96,8 +96,11 @@ span{
 }
 li{
     color: white;
-    font-size: 18px;
+    font-size: 17px;
     /* padding-left: 10px; */
+    list-style: none;
+    padding-bottom: 10px;
+     
 }
 .ceo{
     display: flex;
@@ -202,8 +205,8 @@ hr{
 }
 .cards{
     display: flex;
-    justify-content: space-evenly;
-   
+    justify-content: center;
+   gap: 50px;
 }
 .card{
     width: 280px;
@@ -227,4 +230,38 @@ hr{
 .card-para{
     padding: 0 15px;
     text-align: justify;
+}
+/* footer related styles */
+.footer-container{
+    height: 70vh;
+    background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 70px;
+}
+.footer-items{
+    align-items: center;
+}
+.footer-title{
+    color: rgba(255, 255, 255, 0.726);
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.item-para{
+    color: white;
+    width: 250px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    font-size: 17px;
+}
+.contact-info{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 10px;
+
 }
