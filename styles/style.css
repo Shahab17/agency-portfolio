@@ -187,13 +187,12 @@ hr{
     height: 120vh;
     background-color: rgba(121, 150, 150, 0.788);
     margin-top: -100px;
-    
-    
+    /* padding-bottom: 30px;  */
 }
 .blog-des{
     padding-top: 150px;
     text-align: center;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 }
 .blog-title{
     color: black;
@@ -206,7 +205,7 @@ hr{
 .cards{
     display: flex;
     justify-content: center;
-   gap: 50px;
+    gap: 50px;
 }
 .card{
     width: 280px;
@@ -234,18 +233,19 @@ hr{
 /* footer related styles */
 .footer-container{
     height: 70vh;
-    background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0,0.9));
+    background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    justify-content: space-around;
-    /* align-items: center; */
-    padding: 70px;
+    justify-content: space-evenly;     
+     
 }
 .footer-items{
     align-items: center;
+    margin-top: 100px;
+    
 }
 .footer-title{
     color: rgba(255, 255, 255, 0.726);
@@ -256,7 +256,7 @@ hr{
     color: white;
     width: 250px;
     padding-top: 15px;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
     font-size: 17px;
 }
 .contact-info{
@@ -264,4 +264,17 @@ hr{
     font-size: 18px;
     padding-bottom: 10px;
 
+}
+.youtube{
+    height: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.footer-icon{
+    margin-right: 15px;
+}
+.location-icons{
+    height: 20px;
+    margin-right: 7px;
+    
 }
